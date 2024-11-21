@@ -1,0 +1,178 @@
+*{
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header{
+  margin: 47px 0px 0px 42px;
+
+}
+
+.links{
+  position: relative;
+  margin-right: 32px;
+  color: #17233D;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.88px;
+}
+
+.botao{
+  width: 124px;
+  height: 51px;
+  border-radius: 6px;
+  background-color: #6FBF44;
+  border: 1px solid #4CB538;
+  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+main{
+  margin: 163px 57px 102px 121px;
+  position: relative;
+}
+
+.img-logo{
+  width: 595px;
+  height: 500px;
+  display: inline-block;
+}
+
+.conteudo{
+  display: inline-block;
+  margin-left: 85px;
+  width: 493px;
+  position: relative;
+  bottom: 15px;
+}
+
+h1{
+  width: 582px;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 82px;
+  color: #161A49;
+}
+
+p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: 0.5px;
+  color: #4B505A;
+  width: 493px;
+  margin-top: 47px;
+  margin-bottom: 55px;
+}
+
+.link-learn{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #6FBF44;
+}
+
+.links:hover{
+  bottom: 2px;
+  color: #6FBF44;
+}
+
+.botao:hover{
+  background-color: rgba(255, 255, 255, .1);
+  color: #6FBF44;
+  transition: all .1s ease-in;
+}
+
+.link-learn:hover{
+  color:#161A49; 
+}
+
+@media screen and (max-width: 720px){
+  body{
+    height: 100vh;
+    width: 100vw;
+  }
+  main{
+    margin: 0;
+    padding: 0;
+  }
+  .img-logo{
+    margin-top: 40px;
+    width: 500px;
+    height: 405px;
+    position: static;
+  }
+  .conteudo{
+    margin-left: 20px;
+    position: static;
+  }
+
+  h1{
+    width: 500px;
+    text-align: center;
+  }
+
+  p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .link-learn{
+    margin-left: 200px;
+  }
+}
+
+
+@media screen and (max-width: 540px){
+  body{
+    height: 100vh;
+    width: 100vw;
+  }
+  .links{
+    display: none;
+  }
+  header{
+    margin: 0;
+  }
+  .botao{
+    width: 91px;
+    height: 31px;
+    position: absolute;
+    right: 0;
+    margin: 17px 15px 0 0;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 40px;
+  }
+  .img-logo{
+    order: 2;
+    width: 384px;
+    height: 360px;
+    margin: auto;
+  }
+  .conteudo{
+    order: 1;
+    margin:auto;
+    margin-bottom: 80px;
+  }
+  h1{
+    color: #161A49;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 100% */
+    letter-spacing: 0.596px;
+  }
+}
