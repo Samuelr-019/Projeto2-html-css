@@ -4,6 +4,6 @@
 
 <p>Este projeto se trata de um site que facilita acesso a localização de ampla cobertura, trabalhando com responsividade para atender o maior número de pessoas, segue abaixo exeplos do site em sua versões mobile e desktop.
   
-<img src="" alt="Mockup">
+<img src="https://github.com/Samuelr-019/Wide-coverage-location/blob/master/assets/img/mockup-wide.png?raw=true" alt="Mockup">
 
 <h3>Este projeto foi Desenvolvido utilizando as seguintes tecnologias: <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <h3>
